@@ -132,7 +132,7 @@ class BarInfo
             return _lower_point;
         }
         // ローソク足全体の長さ
-        int getTotalPips()
+        int getTotalPoint()
         {
             return _entity_point + _upper_point + _lower_point;
         }
